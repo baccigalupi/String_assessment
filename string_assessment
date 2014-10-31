@@ -1,3 +1,5 @@
+# This works, but the && is strange
+# what were you trying to do with && operator?
 string = "The quick brown fox jumps over the lazy dog"
 
 puts string.gsub!("e","3") && string.upcase
